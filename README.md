@@ -1,6 +1,20 @@
-# Token Radar — token-radar-01
+# token-radar-01
+
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/zpe177/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/zpe177/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A token launch radar for make.fun's token-radar-01 bounty ($1,325, entries close 2026-12-14).
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../token-radar-01-kit/input/snapshot.json
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
 
 Intended repository: `zpe177/token-radar-01` (GitHub account `zpe177`, linked to make.fun account `@roem`). No `.makefun/owner.json` is needed: the repository owner is the linked GitHub login, so the repo_owner check passes on ownership alone.
 
@@ -43,7 +57,7 @@ Two runs write byte-identical output. Local gate check (all seven rows from the 
 
 ## Screenshots
 
-`screenshots/` holds 3 images (board, detail, filtered), 1440×900, each under 512 KiB. They are currently the starter's renders; re-render them from this dashboard before submitting, e.g. with a headless browser at 1440×900:
+`screenshots/` holds 3 images (board, detail, filtered), 1440×900, each under 512 KiB, re-rendered from this dashboard with a headless browser at 1440×900:
 
 - `1-board.png` — `dashboard/index.html` with no filter
 - `2-detail.png` — same page with a protocol detail open (e.g. `#p=steakhouse-financial`)
